@@ -1,0 +1,21 @@
+{"short_name": "Chirpley",
+  "name": "Chirpley",
+  "description": "Chirpley is the world's first automated, peer-to-peer, all-in-one influencer marketplace specifically focussed on nano and micro influencers.",
+  "iconPath": "chirpley-icon.svg",
+    "icons": [
+        {
+            "src": "/library/favicon/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/library/favicon/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f24139",
+  "background_color": "#ffdda6"
+}
