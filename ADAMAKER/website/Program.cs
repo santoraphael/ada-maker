@@ -20,4 +20,9 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+app.MapControllerRoute(
+    name: "VisionMission",
+    pattern: "vision-and-mission",
+    defaults: new { controller = "VisionMission", action = "Index" });
+
 app.Run();

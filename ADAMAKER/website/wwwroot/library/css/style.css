@@ -585,7 +585,10 @@ img.lazy.loaded, video.lazy.loaded {opacity: 1;}
 .p-header {text-align: center;padding-top: 20.5rem;}
 .p-home .footer {}
 .p-home .footer ::-moz-selection {background: rgba(242,65,57,.99);color: #ffebcc;}
-.p-home .footer ::selection {background: rgba(242,65,57,.99);color: #ffebcc;}
+    .p-home .footer ::selection {
+        background: #EEE756;
+        color: #141414;
+    }
 .p-home__intro {width: 100vw;height: 100vh;}
 .p-home__intro video {width: 100%;height: 100%;-o-object-fit: cover;object-fit: cover;-webkit-transition: none;transition: none;}
 .p-home__intro .intro-wrapper {width: 100%;height: 100%;opacity: .999;}
@@ -688,12 +691,17 @@ img.lazy.loaded, video.lazy.loaded {opacity: 1;}
 .is-desktop .p-home__ai {z-index: 2;}
 .p-home__ai .title-wrapper {z-index: 1;-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);-webkit-perspective: 35rem;perspective: 35rem;}
 .p-home__ai ::-moz-selection {background: rgba(242,65,57,.99);color: #ffebcc;}
-.p-home__ai ::selection {background: rgba(242,65,57,.99);color: #ffebcc;}
+.p-home__ai ::selection {
+    background: #EEE756;
+    color: #141414;
+}
 .p-home__ai::before {content: "";width: 89.5%;height: 1px;background: #141414;position: absolute;top: 0;left: 50%;-webkit-transform: translateX(-50%);transform: translateX(-50%);}
 .is-mobile .p-home__ai {padding-top: 5.7rem;padding-bottom: 10rem;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
 .is-mobile .p-home__ai .title .dot{display:none;}
 .p-home__ai .title {z-index: 3;position: relative;text-transform: uppercase;width: 100%;padding: 0 calc(4.16667vw * var(--sbr));margin-left: .7rem;margin-bottom: 16.2rem;font-size: 35rem;line-height: 1;-webkit-transform-origin: 50% 50% -10rem;transform-origin: 50% 50% -10rem;opacity: .99;}
-.p-home__ai .title em {color: #f9907a;}
+    .p-home__ai .title em {
+        color: #EEE756;
+    }
 .is-mobile .p-home__ai .title {-webkit-box-ordinal-group: 2;-ms-flex-order: 1;order: 1;text-align: center;font-size: 12.5rem;margin-left: 0;line-height: 1.03;}
 .is-mobile .p-home__ai .title em {font-size: 37rem;}
 .p-home__ai .content {width: calc(37.5vw * var(--sbr));margin-left: calc(12.5vw * var(--sbr));}

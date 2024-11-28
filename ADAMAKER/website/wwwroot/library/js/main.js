@@ -2171,7 +2171,10 @@
             key: "init",
             value: function () {
                 var e = this;
+
+
                 a(u(l.prototype), "init", this).call(this);
+
                 var t = this.dom.querySelector(".p-home__intro");
                 this.introVideo = o.a.isDesktop ? t.querySelector(".intro-desktop") : t.querySelector(".intro-mobile"), this.introLoop = o.a.isDesktop ? t.querySelector(".intro-loop-desktop") : t.querySelector(".intro-loop-mobile"), this.introGradient = t.querySelector(".gradient"), this.introVideo.addEventListener("ended", (function (t) {
                     e.introLoop.currentTime = 0, e.introLoop.play()
