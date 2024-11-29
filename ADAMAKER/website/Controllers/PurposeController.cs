@@ -2,7 +2,7 @@
 
 namespace website.Controllers
 {
-    public class VisionMissionController : Controller
+    public class PurposeController : Controller
     {
         public IActionResult Index()
         {

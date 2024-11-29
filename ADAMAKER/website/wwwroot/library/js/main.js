@@ -2574,7 +2574,7 @@
                 r.fromTo(this, {
                     numberTitle: 1e7
                 }, {
-                    numberTitle: 1500,
+                    numberTitle: window.config.dinamicNumberTitle,
                     ease: "expo.inOut",
                     duration: 1.5
                 }, .1), this.setAnimTrigger(r, n, "top 60%", "top 105%"), o.a.isDesktop && (e = this.dom.querySelector(".p-vision-and-mission__header"), t = this.dom.querySelector(".p-vision-and-mission__header .circle"), (r = gsap.timeline()).fromTo(t, {
