@@ -1,7 +1,7 @@
-{"short_name": "Chirpley",
-  "name": "Chirpley",
-  "description": "Chirpley is the world's first automated, peer-to-peer, all-in-one influencer marketplace specifically focussed on nano and micro influencers.",
-  "iconPath": "chirpley-icon.svg",
+{"short_name": "Ada Makers",
+  "name": "Ada Makers",
+  "description": "Ada Makers is the world's first, social engagement marketplace for decentralized marketing using micro and nano influencers. Ada Makers will give projects the freedom to advertise their products quickly, affordably, and in a decentralized manner, thanks to the mechanism developed by the platform.",
+  "iconPath": "adamakers-icon.svg",
   "icons": [
     {
       "src": "favicon.ico",
@@ -9,18 +9,18 @@
       "type": "image/x-icon"
     },
     {
-      "src": "https://chirpley.ai/library/favicon/android-chrome-192x192.png",
+      "src": "https://ada-makers.com/library/favicon/android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://chirpley.ai/library/favicon/android-chrome-512x512.png",
+      "src": "https://ada-makers.com/library/favicon/android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#f24139",
-  "background_color": "#ffdda6"
+  "theme_color": "#EEE756",
+  "background_color": "#fff"
 }

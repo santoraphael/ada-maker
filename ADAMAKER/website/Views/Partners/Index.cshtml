@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="team-and-partners" class="page p-team-and-partners hidden">
+	<div class="fixed-wrapper"></div>
+	<div class="js-scroll">
+		<main class="page-wrapper">
+
+			<section class="p-team-and-partners__header">
+				<div class="title-wrapper">
+					<div class="abs robot" data-prllx="1.2" data-p-top data-p-no-mask>
+						<picture class="r " style="padding-bottom:181.80354267311%" data-ratio="1.8180354267311"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/library/media/nft_maker_howworks.png" data-srcset="/library/media/nft_maker_howworks.png 320w, /library/media/nft_maker_howworks.png 621w" data-sizes="(min-width: 750px) 50vw, 100vw" alt="Robot"></picture>
+					</div>
+					<h1 class="title">
+						Partners
+					</h1>
+				</div>
+			</section>
+
+			<section class="p-team-and-partners__team" >
+				<ul class="team">
+					@* <li class="member">
+						<div class="bg"></div>
+						<div class="wrapper">
+							<div class="photo">
+								<picture class="r " style="padding-bottom:100%" data-ratio="1"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://chirpley.ai/library/media/05.png" data-srcset="https://chirpley.ai/library/media/05-320x0-c-default.png 320w, https://chirpley.ai/library/media/05.png 512w" data-sizes="(min-width: 750px) 20vw, 50vw" alt="Job ter Horst "></picture>
+							</div>
+							<div class="infos">
+								<div class="name">Job ter Horst </div>
+								<div class="position">Founder & CEO </div>
+							</div>
+							<div class="socials">
+								<a class="f-center link linkedin" href="https://www.linkedin.com/in/job-t-61317a1a3/" target="_blank" rel="noopener">
+									<svg viewbox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M3.40512 14.3836V4.67899H0.189708V14.3836H3.40512ZM1.79783 3.35321C2.9191 3.35321 3.61704 2.60801 3.61704 1.67676C3.59614 0.724513 2.91914 0 1.81911 0C0.719243 0 0 0.724527 0 1.67676C0 2.60805 0.697765 3.35321 1.77684 3.35321H1.79773H1.79783ZM5.18484 14.3836H8.40025V8.96405C8.40025 8.67401 8.42114 8.38426 8.50605 8.17693C8.7385 7.59743 9.26756 6.99723 10.1558 6.99723C11.3193 6.99723 11.7848 7.88717 11.7848 9.19176V14.3835H15V8.81898C15 5.83812 13.4137 4.45116 11.2981 4.45116C9.56356 4.45116 8.80196 5.4238 8.37886 6.08626H8.40032V4.67879H5.18491C5.22711 5.58941 5.18491 14.3833 5.18491 14.3833L5.18484 14.3836Z" fill="#F24139"></path>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</li> *@
+
+				</ul>
+				<div class="abs arrows">
+					<button class="f-center arrow arrow-left disabled">
+						@* <svg viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M7.00011 14.0432L13.0369 8.08019L7.07388 2.04342" stroke="white" stroke-width="4"></path>
+							<line x1="0.0357309" y1="8.00004" x2="12.0355" y2="8.0738" stroke="white" stroke-width="4"></line>
+						</svg> *@
+					</button>
+					<button class="f-center arrow arrow-right">
+						@* <svg viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M7.00011 14.0432L13.0369 8.08019L7.07388 2.04342" stroke="white" stroke-width="4"></path>
+							<line x1="0.0357309" y1="8.00004" x2="12.0355" y2="8.0738" stroke="white" stroke-width="4"></line>
+						</svg> *@
+					</button>
+				</div>
+			</section>
+
+			<section class="p-team-and-partners__partners">
+				<h2 class="title">Trusted by the best</h2>
+				<ul class="list">
+					@* <li class="f-center item">
+						<a href="https://fantomstarter.io/" target="blank"><img class="icon" src="../library/media/icon-fantompartner.svg" height="60px" alt="Fantom Starter"></a>
+					</li> *@
+				</ul>
+			</section>
+
+		</main>
+		@await Html.PartialAsync("_Footer")
+	</div>
+</div>

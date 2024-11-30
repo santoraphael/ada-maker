@@ -1,0 +1,125 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="roadmap" class="page p-roadmap hidden">
+	<div class="fixed-wrapper"></div>
+	<div class="js-scroll">
+		<main class="page-wrapper">
+
+			<section class="p-roadmap__header">
+				<h1 class="title"><em>Road</em> Map</h1>
+			</section>
+
+			<section class="p-roadmap__timeline">
+				<div class="robot">
+					<div class="robot-desktop">
+						<video class="token-loop lazy" autoplay muted playsinline loop>
+							<source data-src="https://chirpley.ai/library/videos/chirpley-roadmap-robot.mp4" type="video/mp4"></source>
+						</video>
+						<div class="abs gradient"></div>
+					</div>
+				</div>
+				<ul class="list">
+					<li class="item">
+						<div class="bg"></div>
+						<div class="wrapper">
+							<h2 class="title">2021&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+							<p class="text">
+								- Company Creation<br>
+								- Team Onboarding<br>
+								- Start Develoment Chirpley<br>
+								- Platform Launch
+							</p>
+						</div>
+					</li>
+					<li class="item">
+						<div class="bg"></div>
+						<div class="wrapper">
+							<h2 class="title">2022&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+							<p class="text">
+								- Wallet Integration<br>
+								- Onboard Advisors<br>
+								- Product MVP<br>
+								- IDO ApeSwap (IAO)<br>
+								- ByBit & MEXC listing<br>
+								- BabyDoge partnership<br>
+								- Floki partnership (Locked LP)
+							</p>
+						</div>
+					</li>
+					<li class="item">
+						<div class="bg"></div>
+						<div class="wrapper">
+							<h2 class="title">Q1 2023</h2>
+							<p class="text">
+								- Create wireframes TikTok integration <br>
+								- Expanding development team <br>
+								- Closing funding round <br>
+								- Acquiring enterprise TikTok clients in Europe
+							</p>
+						</div>
+					</li>
+					<li class="item">
+						<div class="bg"></div>
+						<div class="wrapper">
+							<h2 class="title">Q2 2023</h2>
+							<p class="text">
+								- Major exchange listing <br>
+								- TikTok integration
+							</p>
+						</div>
+					</li>
+					<li class="item">
+						<div class="bg"></div>
+						<div class="wrapper">
+							<h2 class="title">Q3 2023</h2>
+							<p class="text">
+								- FIAT on/off ramp <br>
+								- Invoice system integration<br>
+								- Major TikTok launching partners<br>
+								- User acquisition for TikTok Europe<br>
+								- Design mobile App wireframes<br>
+								- Start designing NFTs
+							</p>
+						</div>
+					</li>
+					<li class="item">
+						<div class="bg"></div>
+						<div class="wrapper">
+							<h2 class="title">Q4 2023</h2>
+							<p class="text">
+								- Meta integration <br>
+								- NFT genesis <br>
+								- Mobile App Development
+							</p>
+						</div>
+					</li>
+					<li class="item">
+						<div class="bg"></div>
+						<div class="wrapper">
+							<h2 class="title">Q1 2024</h2>
+							<p class="text">
+								- Barter integration marketplace<br>
+								- YouTube Integration<br>
+								- Strategic A-series investment<br>
+								- Global targeting
+							</p>
+						</div>
+					</li>
+					<li class="item">
+						<div class="bg"></div>
+						<div class="wrapper">
+							<h2 class="title">Q2 2024</h2>
+							<p class="text">
+								- Integration freelance market
+							</p>
+						</div>
+					</li>
+				</ul>
+			</section>
+
+		</main>
+		@await Html.PartialAsync("_Footer")
+	</div>
+</div>
