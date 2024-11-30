@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="flowchart" class="page p-flowchart hidden">
+	<div class="fixed-wrapper"></div>
+	<div class="js-scroll">
+		<main class="page-wrapper">
+
+			<section class="p-flowchart__header">
+				<h1 class="title">HOW <wbr>WORKS</wbr></h1>
+				<div class="visuel">
+					<div class="abs robot" data-prllx=".6" data-p-top data-p-no-mask><picture class="r " style="padding-bottom:137.38095238095%" data-ratio="1.3738095238095"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/library/media/nft_maker_howworks.png" data-srcset="/library/media/nft_maker_howworks.png 320w, /library/media/nft_maker_howworks.png 640w, /library/media/nft_maker_howworks.png 840w" data-sizes="(min-width: 750px) 40vw, 100vw" alt="Robot"></picture></div>
+					<div class="abs bird" data-prllx=".9" data-p-top data-p-no-mask><picture class="r " style="padding-bottom:125.89473684211%" data-ratio="1.2589473684211"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="/library/media/nft_creator_howworks.png" data-srcset="/library/media/nft_creator_howworks.png 320w, /library/media/nft_creator_howworks.png 640w, /library/media/nft_creator_howworks.png 950w" data-sizes="(min-width: 750px) 40vw, 100vw" alt="Bird"></picture></div>
+				</div>
+				<div class="content">
+					<h2 class="subtitle">
+						NFT that provides <b>access</b> and Token that offers <b>discounts</b>.
+					</h2>
+					<div class="text">
+						<p class="p1">
+							Makers and Creators gain access to the platform by holding one of the NFTs from the SparkPro collection. For initial holders, an airdrop of the $MKRS Token will distribute part of the total supply.
+						</p>
+						<p class="p1">
+							When creating a campaign, the Creator pays a 10% fee on the budget amount. This fee is reduced to 5% if the payment is made in MKRS Token. Similarly, the Maker pays a 10% fee on the withdrawal amount, but 20% of that fee is allocated to MKRS Token buybacks.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="p-flowchart__diagram">
+				<div class="abs bg"></div>
+				<div class="diagram">
+					<div class="diagram-desktop"><img class="lazy" data-src="/library/svg/desktop-diagram.svg" alt="Diagram"></div>
+					<div class="diagram-mobile"><img class="lazy" data-src="/library/svg/mobile-diagram.svg" alt="Diagram"></div>
+				</div>
+			</section>
+
+		</main>
+		@await Html.PartialAsync("_Footer")
+	</div>
+</div>
