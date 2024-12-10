@@ -1,0 +1,355 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+<main class="v-main" style="--v-layout-left: 315px; --v-layout-right: 0px; --v-layout-top: 64px; --v-layout-bottom: 0px;">
+    <!---->
+    <div class="v-container v-locale--is-ltr">
+        <div>
+            <div class="v-row">
+                <div class="v-col-md-2 v-col-12 d-flex align-center">
+                    <h1 class="text-uppercase text-blue-cool-600 mb-6">earnings</h1>
+                </div>
+                <div class="v-col-md-10 v-col-12">
+                    <div class="v-row justify-end">
+                        <div class="v-col-md-4 v-col-12">
+                            <div class="v-card v-theme--light v-card--density-default elevation-0 v-card--variant-elevated card">
+                                <!---->
+                                <div class="v-card__loader">
+                                    <div class="v-progress-linear v-theme--light v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;">
+                                        <!---->
+                                        <div class="v-progress-linear__background"></div>
+                                        <div class="v-progress-linear__buffer" style="width: 0%;"></div>
+                                        <div class="v-progress-linear__indeterminate">
+                                            <div class="v-progress-linear__indeterminate long"></div>
+                                            <div class="v-progress-linear__indeterminate short"></div>
+                                        </div>
+                                        <!---->
+                                    </div>
+                                </div>
+                                <!----><!---->
+                                <div class="d-flex h-100">
+                                    <div>
+                                        <h2 class="text-title">$ 0.00</h2>
+                                    </div>
+                                    <div class="ml-auto">
+                                        <button type="button" class="v-btn v-theme--light text-primary v-btn--density-default v-btn--size-default v-btn--variant-text d-block ml-auto v-btn-text px-0 text-bold">
+                                            <span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator="">Withdraw</span><!----><!---->
+                                        </button>
+                                    </div>
+                                </div>
+                                <p class="text-normal mt-3">Current balance</p>
+                                <!----><!----><span class="v-card__underlay"></span>
+                            </div>
+                        </div>
+                        <div class="v-col-md-3 v-col-12">
+                            <div class="v-card v-theme--light v-card--density-default elevation-0 v-card--variant-elevated card d-flex">
+                                <!---->
+                                <div class="v-card__loader">
+                                    <div class="v-progress-linear v-theme--light v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;">
+                                        <!---->
+                                        <div class="v-progress-linear__background"></div>
+                                        <div class="v-progress-linear__buffer" style="width: 0%;"></div>
+                                        <div class="v-progress-linear__indeterminate">
+                                            <div class="v-progress-linear__indeterminate long"></div>
+                                            <div class="v-progress-linear__indeterminate short"></div>
+                                        </div>
+                                        <!---->
+                                    </div>
+                                </div>
+                                <!----><!---->
+                                <div>
+                                    <h2 class="text-title">$ 0.00</h2>
+                                    <p class="text-normal mt-3">Incoming earnings</p>
+                                </div>
+                                <!----><!----><span class="v-card__underlay"></span>
+                            </div>
+                        </div>
+                        <div class="v-col-md-5 v-col-12">
+                            <div class="v-card v-theme--light v-card--density-default elevation-0 v-card--variant-elevated card">
+                                <!---->
+                                <div class="v-card__loader">
+                                    <div class="v-progress-linear v-theme--light v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;">
+                                        <!---->
+                                        <div class="v-progress-linear__background"></div>
+                                        <div class="v-progress-linear__buffer" style="width: 0%;"></div>
+                                        <div class="v-progress-linear__indeterminate">
+                                            <div class="v-progress-linear__indeterminate long"></div>
+                                            <div class="v-progress-linear__indeterminate short"></div>
+                                        </div>
+                                        <!---->
+                                    </div>
+                                </div>
+                                <!----><!---->
+                                <div class="d-flex h-100">
+                                    <div>
+                                        <h2 class="text-title">$ 0.00</h2>
+                                    </div>
+                                    <div class="v-spacer"></div>
+                                    <div>
+                                        <div class="v-btn-group v-theme--light v-btn-group--density-default v-btn-toggle period-filter">
+                                            <button type="button" class="v-btn v-btn--active v-btn--flat v-theme--light v-btn--density-default v-btn--size-default v-btn--variant-elevated" value="week" style="height: auto;">
+                                                <span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""> Week </span><!----><!---->
+                                            </button>
+                                            <button type="button" class="v-btn v-btn--flat v-theme--light v-btn--density-default v-btn--size-default v-btn--variant-elevated" value="month" style="height: auto;">
+                                                <span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""> Month </span><!----><!---->
+                                            </button>
+                                            <button type="button" class="v-btn v-btn--flat v-theme--light v-btn--density-default v-btn--size-default v-btn--variant-elevated" value="year" style="height: auto;">
+                                                <span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!----><span class="v-btn__content" data-no-activator=""> Year </span><!----><!---->
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="text-normal mt-3">Earned this week</p>
+                                <!----><!----><span class="v-card__underlay"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-6">
+                <div class="v-row">
+                    <div class="v-col-md-12 v-col-lg-9 v-col-12">
+                        <div class="d-flex justify-space-between mb-6">
+                            <h2 class="h2 text-blue-cool-600 mr-3 text-uppercase">Transactions</h2>
+                            <button type="button" class="v-btn v-btn--elevated v-theme--light bg-primary v-btn--density-default v-btn--size-default v-btn--variant-elevated btn btn-primary" aria-haspopup="menu" aria-expanded="false" aria-owns="v-menu-565">
+                                <span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!---->
+                                <span class="v-btn__content" data-no-activator="">
+                                    Download<span class="d-none d-sm-block pl-1">transactions</span><!----><!---->
+                                </span>
+                                <!----><!---->
+                            </button>
+                        </div>
+                        <div class="v-table v-table--has-top v-table--has-bottom v-theme--light v-table--density-default v-data-table v-data-table--show-select chrp-table">
+                            <!---->
+                            <div class="v-table__wrapper">
+                                <table>
+                                    <!---->
+                                    <thead>
+                                        <tr>
+                                            <th class="v-data-table__td v-data-table-column--no-padding v-data-table-column--align-start v-data-table__th" colspan="1" rowspan="1" style="width: 48px;">
+                                                <div class="v-selection-control v-selection-control--density-default v-checkbox-btn">
+                                                    <div class="v-selection-control__wrapper">
+                                                        <!---->
+                                                        <div class="v-selection-control__input">
+                                                            <i class="v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true">
+                                                                <svg class="v-icon__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true">
+                                                                    <path d="M19,3H5C3.89,3 3,3.89 3,5V19C3,20.1 3.9,21 5,21H19C20.1,21 21,20.1 21,19V5C21,3.89 20.1,3 19,3M19,5V19H5V5H19Z"></path>
+                                                                </svg>
+                                                            </i>
+                                                            <input id="input-566" aria-disabled="false" type="checkbox" value="true">
+                                                        </div>
+                                                    </div>
+                                                    <!---->
+                                                </div>
+                                            </th>
+                                            <th class="v-data-table__td v-data-table-column--align-start v-data-table__th--sortable v-data-table__th" colspan="1" rowspan="1">
+                                                <div class="v-data-table-header__content">
+                                                    <span>Brand</span>
+                                                    <i class="v-icon notranslate v-theme--light v-icon--size-default v-data-table-header__sort-icon" aria-hidden="true">
+                                                        <svg class="v-icon__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true">
+                                                            <path d="M13,20H11V8L5.5,13.5L4.08,12.08L12,4.16L19.92,12.08L18.5,13.5L13,8V20Z"></path>
+                                                        </svg>
+                                                    </i>
+                                                    <!---->
+                                                </div>
+                                            </th>
+                                            <th class="v-data-table__td v-data-table-column--align-start v-data-table__th--sortable v-data-table__th" colspan="1" rowspan="1">
+                                                <div class="v-data-table-header__content">
+                                                    <span>Campaign</span>
+                                                    <i class="v-icon notranslate v-theme--light v-icon--size-default v-data-table-header__sort-icon" aria-hidden="true">
+                                                        <svg class="v-icon__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true">
+                                                            <path d="M13,20H11V8L5.5,13.5L4.08,12.08L12,4.16L19.92,12.08L18.5,13.5L13,8V20Z"></path>
+                                                        </svg>
+                                                    </i>
+                                                    <!---->
+                                                </div>
+                                            </th>
+                                            <th class="v-data-table__td v-data-table-column--align-end v-data-table__th--sortable v-data-table__th" colspan="1" rowspan="1">
+                                                <div class="v-data-table-header__content">
+                                                    <span>Amount in $</span>
+                                                    <i class="v-icon notranslate v-theme--light v-icon--size-default v-data-table-header__sort-icon" aria-hidden="true">
+                                                        <svg class="v-icon__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true">
+                                                            <path d="M13,20H11V8L5.5,13.5L4.08,12.08L12,4.16L19.92,12.08L18.5,13.5L13,8V20Z"></path>
+                                                        </svg>
+                                                    </i>
+                                                    <!---->
+                                                </div>
+                                            </th>
+                                            <th class="v-data-table__td v-data-table-column--align-end v-data-table__th--sortable v-data-table__th" colspan="1" rowspan="1">
+                                                <div class="v-data-table-header__content">
+                                                    <span>Date</span>
+                                                    <i class="v-icon notranslate v-theme--light v-icon--size-default v-data-table-header__sort-icon" aria-hidden="true">
+                                                        <svg class="v-icon__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true">
+                                                            <path d="M13,20H11V8L5.5,13.5L4.08,12.08L12,4.16L19.92,12.08L18.5,13.5L13,8V20Z"></path>
+                                                        </svg>
+                                                    </i>
+                                                    <!---->
+                                                </div>
+                                            </th>
+                                            <th class="v-data-table__td v-data-table-column--align-end v-data-table__th--sortable v-data-table__th" colspan="1" rowspan="1">
+                                                <div class="v-data-table-header__content">
+                                                    <span>Reference</span>
+                                                    <i class="v-icon notranslate v-theme--light v-icon--size-default v-data-table-header__sort-icon" aria-hidden="true">
+                                                        <svg class="v-icon__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true">
+                                                            <path d="M13,20H11V8L5.5,13.5L4.08,12.08L12,4.16L19.92,12.08L18.5,13.5L13,8V20Z"></path>
+                                                        </svg>
+                                                    </i>
+                                                    <!---->
+                                                </div>
+                                            </th>
+                                        </tr>
+                                        <!---->
+                                    </thead>
+                                    <!---->
+                                    <tbody>
+                                        <!---->
+                                        <tr class="v-data-table-rows-no-data">
+                                            <td colspan="6">No data available</td>
+                                        </tr>
+                                        <!---->
+                                    </tbody>
+                                    <!----><!---->
+                                </table>
+                            </div>
+                            <hr class="v-divider v-theme--light" aria-orientation="horizontal" role="separator">
+                            <div class="v-data-table-footer">
+                                <!---->
+                                <div class="v-data-table-footer__items-per-page">
+                                    <span>Items per page:</span>
+                                    <div class="v-input v-input--horizontal v-input--center-affix v-input--density-compact v-theme--light v-locale--is-ltr v-input--dirty v-text-field v-select v-select--single v-select--selected">
+                                        <!---->
+                                        <div class="v-input__control">
+                                            <div class="v-field v-field--active v-field--appended v-field--center-affix v-field--dirty v-field--no-label v-field--variant-outlined v-theme--light v-locale--is-ltr" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-owns="v-menu-569">
+                                                <div class="v-field__overlay"></div>
+                                                <div class="v-field__loader">
+                                                    <div class="v-progress-linear v-theme--light v-locale--is-ltr" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;">
+                                                        <!---->
+                                                        <div class="v-progress-linear__background"></div>
+                                                        <div class="v-progress-linear__buffer" style="width: 0%;"></div>
+                                                        <div class="v-progress-linear__indeterminate">
+                                                            <div class="v-progress-linear__indeterminate long"></div>
+                                                            <div class="v-progress-linear__indeterminate short"></div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                </div>
+                                                <!---->
+                                                <div class="v-field__field" data-no-activator="">
+                                                    <!---->
+                                                    <label class="v-label v-field-label" for="input-567">
+                                                        <!----><!---->
+                                                    </label>
+                                                    <!---->
+                                                    <div class="v-field__input" data-no-activator="">
+                                                        <!----><!---->
+                                                        <div class="v-select__selection">
+                                                            <span class="v-select__selection-text">
+                                                                10<!---->
+                                                            </span>
+                                                        </div>
+                                                        <input size="1" type="text" id="input-567" aria-describedby="input-567-messages" inputmode="none" aria-label="Open" title="Open">
+                                                    </div>
+                                                    <!---->
+                                                </div>
+                                                <!---->
+                                                <div class="v-field__append-inner">
+                                                    <!---->
+                                                    <i class="v-icon notranslate v-theme--light v-icon--size-default v-select__menu-icon" aria-hidden="true">
+                                                        <svg class="v-icon__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true">
+                                                            <path d="M7,10L12,15L17,10H7Z"></path>
+                                                        </svg>
+                                                    </i>
+                                                    <!---->
+                                                </div>
+                                                <div class="v-field__outline">
+                                                    <div class="v-field__outline__start"></div>
+                                                    <!---->
+                                                    <div class="v-field__outline__end"></div>
+                                                    <!---->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!----><!---->
+                                    </div>
+                                </div>
+                                <div class="v-data-table-footer__info">
+                                    <div>0-0 of 0</div>
+                                </div>
+                                <div class="v-data-table-footer__pagination">
+                                    <nav class="v-pagination v-theme--light" role="navigation" aria-label="Pagination Navigation" data-test="v-pagination-root">
+                                        <ul class="v-pagination__list">
+                                            <li class="v-pagination__first" data-test="v-pagination-first">
+                                                <button type="button" class="v-btn v-btn--disabled v-btn--icon v-theme--light v-btn--density-comfortable v-btn--rounded v-btn--size-default v-btn--variant-plain" disabled="" aria-label="First page" aria-disabled="true">
+                                                    <span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!---->
+                                                    <span class="v-btn__content" data-no-activator="">
+                                                        <i class="v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true">
+                                                            <svg class="v-icon__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true">
+                                                                <path d="M18.41,16.59L13.82,12L18.41,7.41L17,6L11,12L17,18L18.41,16.59M6,6H8V18H6V6Z"></path>
+                                                            </svg>
+                                                        </i>
+                                                    </span>
+                                                    <!----><!---->
+                                                </button>
+                                            </li>
+                                            <li class="v-pagination__prev" data-test="v-pagination-prev">
+                                                <button type="button" class="v-btn v-btn--disabled v-btn--icon v-theme--light v-btn--density-comfortable v-btn--rounded v-btn--size-default v-btn--variant-plain" disabled="" aria-label="Previous page" aria-disabled="true">
+                                                    <span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!---->
+                                                    <span class="v-btn__content" data-no-activator="">
+                                                        <i class="v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true">
+                                                            <svg class="v-icon__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true">
+                                                                <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"></path>
+                                                            </svg>
+                                                        </i>
+                                                    </span>
+                                                    <!----><!---->
+                                                </button>
+                                            </li>
+                                            <li class="v-pagination__next" data-test="v-pagination-next">
+                                                <button type="button" class="v-btn v-btn--disabled v-btn--icon v-theme--light v-btn--density-comfortable v-btn--rounded v-btn--size-default v-btn--variant-plain" disabled="" aria-label="Next page" aria-disabled="true">
+                                                    <span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!---->
+                                                    <span class="v-btn__content" data-no-activator="">
+                                                        <i class="v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true">
+                                                            <svg class="v-icon__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true">
+                                                                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"></path>
+                                                            </svg>
+                                                        </i>
+                                                    </span>
+                                                    <!----><!---->
+                                                </button>
+                                            </li>
+                                            <li class="v-pagination__last" data-test="v-pagination-last">
+                                                <button type="button" class="v-btn v-btn--disabled v-btn--icon v-theme--light v-btn--density-comfortable v-btn--rounded v-btn--size-default v-btn--variant-plain" disabled="" aria-label="Last page" aria-disabled="true">
+                                                    <span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><!---->
+                                                    <span class="v-btn__content" data-no-activator="">
+                                                        <i class="v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true">
+                                                            <svg class="v-icon__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true">
+                                                                <path d="M5.59,7.41L10.18,12L5.59,16.59L7,18L13,12L7,6L5.59,7.41M16,6H18V18H16V6Z"></path>
+                                                            </svg>
+                                                        </i>
+                                                    </span>
+                                                    <!----><!---->
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="v-col v-col-12"></div>
+                </div>
+            </div>
+            <!----><!----><!----><!----><!----><!---->
+        </div>
+    </div>
+</main>
+
+
+
+
+
+
+
+         

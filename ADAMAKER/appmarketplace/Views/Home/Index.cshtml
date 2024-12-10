@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+    var currentType = ViewBag.Type as string ?? "maker";
+}
+
+
+@if (currentType == "maker")
+{
+    @Html.Partial("~/Views/Home/_IndexMakerContent.cshtml")
+}
+else
+{
+    @Html.Partial("~/Views/Home/_IndexCreatorContent.cshtml")
+}
+
+
+
+
+
+
+
+
+
+
+         
